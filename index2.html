@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Задание 2</title>
+  <link rel="stylesheet" type="text/css" href="css/task2.css">
+  <script src="script/script.js"></script> 
+</head>
+<body>
+    <div id="wrapper">
+		<div id="heading">
+			<h6>FUNCTIONS</h6>
+		</div>
+		<p>Функция, принимающая массив строк и возвращающая самую длинную строку</p>
+
+		<div class="form_group field">
+		<input type="text" class="form_field" placeholder="Введите строки через пробел" id="task1" required>
+		<button id="button1" onclick="longestString()">Отправить</button>
+		</div>
+		<p>Функция, принимающая строку и возвращающая символ, который встречается чаще всего</p>
+
+		<div class="form_group field">
+		<input type="text" class="form_field" placeholder="Введите строку" id="task2" required>
+		<button id="button2" onclick="frequentSymbol()">Отправить</button>
+		
+		</div>
+		<p>Заменить этот символ, на символ, который введет пользователь через promt или input</p>
+		<div class="form_group field">
+		<input type="text" class="form_field" placeholder="Введите символ" id="task3" required>
+		<button id="button3" onclick="changeSymbol()">Отправить</button>	
+		<span class=popup-text></span>
+		</div>
+		<p>Функция, принимающая 2 строки и возвращающая true, если строки являются анаграммами</p>
+		<div class="form_group field">
+		<input type="text" class="form_field" placeholder="Введите первую строку" id="task41" required>
+		<input type="text" class="form_field" placeholder="Введите вторую строку" id="task42" required>
+		<button id="button4" onclick="isAnagram()">Отправить</button>
+		<span class="anagram"></span>
+		<span class="not_anagram"></span>
+	</div>
+    </div>
+</body>
+</html>
